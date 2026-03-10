@@ -1,0 +1,47 @@
+
+
+Usuarios   postgres
+
+Contraseña Danny16029567*
+
+
+
+Usuario danny
+
+Contraseña Danny16029567*
+
+
+_______________________________________________
+
+
+
+
+
+
+script de logistica 
+
+
+DELETE FROM public.solicitud
+ WHERE fecha='2023-03-15';
+
+
+
+SELECT usuario, gerencia, tipo, solicitada, accion, id, fecha, hora, 
+       observacion, entregado, entregada
+  FROM public.solicitud where fecha='2023-02-28';
+
+
+
+DELETE FROM public.solicitud
+ WHERE id='11486';
+
+
+
+192.168.6.22
+5432
+postgres
+comedor
+
+
+
+192.168.22.99
